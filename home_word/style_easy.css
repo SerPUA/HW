@@ -1,0 +1,38 @@
+.maine_title{
+    height: 27px;
+    width: auto;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background-color:#A52A2A;
+}
+.img{
+    height: 500px;
+}
+.text_num_1{
+    text-align: left;
+    font-size: 18px;
+}
+.span1{
+    font-style: italic;
+}
+.span2{ 
+font-weight: bold;}
+.span3{
+    color: blue;
+}
+.table{
+margin-left: 40%;
+margin-right: 50%;
+}
+.img_car{
+    border: 5px dashed black;
+}
+.footer{
+    height: 20px;
+    width: auto;
+    text-align: center;
+    padding: auto;
+    background-color: black;
+    color: white;
+}
