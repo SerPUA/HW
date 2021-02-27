@@ -1,0 +1,39 @@
+.container{
+    background-color: black;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  height: 420px;
+  font-family: 'Open Sans', sans-serif;
+}
+.logo{
+    padding: 120px 0 39px 0;
+    margin-left: 895px;  
+}
+.text{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 0px;
+    margin: 0px 0 15px 166px;
+    
+}
+.line{
+    width: 228px;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-left: 837px;
+}
+.soc_logo{
+    padding-left: 878px;
+    padding-top: 11px;
+}
+.foot{
+color: white;
+padding: 78px 0 0 0;
+margin: 0 0 17px 832px;
+}
+.kasper{
+   color: rgba(29, 167, 208, 255)
+}
