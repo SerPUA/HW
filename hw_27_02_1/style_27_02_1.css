@@ -1,0 +1,45 @@
+table{
+    width: 100%;
+   
+}
+table td{
+    width: 33.333%;
+    text-align: center;
+    box-sizing: border-box;
+}
+/* icon */
+.icon{
+    width: 63px;
+    height: 63px;
+    background-color: #1275b9;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 1px solid #1275b9;
+    
+}
+.icon-tab{
+    background-image: url(/img/Tablet.svg);
+}
+.icon-tab:hover{
+    background-image: url(/img/Tablet_hov.svg);
+}
+.icon-set{
+    background-image: url(/img/Settings.svg);
+}
+.icon-set:hover{
+    background-image: url(/img/Settings_hov.svg);
+}
+.icon-dash{
+    background-image: url(/img/Dashboard.svg);
+}
+.icon-dash:hover{
+    background-image: url(/img/Dashboard_hov.svg);
+}
+.icon:hover{
+    background-color: white;
+}
+span{
+    text-align: center;
+}
