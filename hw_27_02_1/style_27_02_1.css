@@ -42,4 +42,6 @@ table td{
 }
 span{
     text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
 }
