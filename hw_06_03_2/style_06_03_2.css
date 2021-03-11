@@ -1,0 +1,100 @@
+body{
+    background-color: #454e52;
+    margin: 0;
+    padding: 0;
+    width: 1200px;
+    border: 1px solid white;
+    height: 1125px;
+    
+}
+.container{
+    background-color: white;
+    margin: 149px 70px 0 70px;
+    width: 1060px;
+    height: 900px;
+}
+.para{
+    padding-top: 200px;
+    padding-left: 160px;
+    text-transform: uppercase;
+    word-spacing: 20px;
+    color: #8f8f8f;
+}
+.head_title{
+    font-size: 70px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+}
+.sub_title{
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 135px;
+    color: #8f8f8f;
+}
+.article{
+    font-size: 28px;
+    padding: 0 125px 0 125px;
+}
+/* input */
+.input{
+    background-color: black;
+    height: 187px;
+    width: 875px;
+    position: absolute;
+    left: 327px;
+    top: 60px;
+    color: white;
+}
+.input_form{
+    background-color: black;
+    color: white;
+    border: 0px solid black;
+    font-size: 48px;
+    padding: 30px 0 30px 30px;
+    outline: 0;
+}
+
+.inp_text{
+    color: #444444;
+    font-size: 15px;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 25px;
+    left: 35px;
+}
+
+/* button */
+.ul_style{
+    list-style: none;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 14px;
+    opacity: .5;
+}
+.ul_style:hover{
+    opacity: 1;
+}
+
+.button_lane{
+    width: 811px;
+    height: 76px;
+    background-color: #f8bd2d;
+    position: absolute;
+    left: 391px;
+    top: 247px;
+    margin: 0;
+    padding: 0;
+    
+}
+.img{
+    margin: 0;
+    padding: 0;
+    background-color: #f9bd2d;
+    width: 40px;
+    height: 33px;
+    border: none;
+    
+}
