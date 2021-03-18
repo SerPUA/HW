@@ -6,9 +6,7 @@ body{
     justify-content: space-between;
     align-items: center;
     margin: 28px 0 0 20px;
-    border: 1px solid black;
     flex-grow: 1;
-    
 }
 .cup{
     border: 2px solid black;
@@ -33,20 +31,26 @@ body{
     margin: 0;
     padding-top: 61px;
 }
+.info{
+    margin: 0;
+}
 .price{
-    width: 52px;
-    height: 52px;
-    padding: 21px 0 0 126px;
+    font-size: 70px;
+    
+    color: #02995b;
+    font-weight: bold;
+    text-align: center;
 }
 .text2{
-    font-weight: 700;
+    font-size: 56px;
+     color: #333333;
     text-align: center;
 }
 .text3{
     text-align: center;
 }
 .cup:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     opacity: 1;
     background-color: blue;
 }
