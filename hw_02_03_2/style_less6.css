@@ -1,0 +1,83 @@
+body{
+    background-color: #3399cc;
+}
+.item{
+    width: 984px;
+    margin: 50px auto;
+    background: white;
+    border: 3px solid white;
+    box-sizing: border-box;
+    font-size: 0;
+    padding: 0;
+    color: white;
+}
+.head{
+    padding-top: 10px;
+    padding-left: 365px;
+    color: white;
+    font-size: 30px;
+}
+.city{
+    display: inline-block;
+    width: 25%;
+    height: 154px;
+    background-color: #3399cc;
+    border: 3px solid white;
+    box-sizing: border-box;
+    font-size: 28px;
+    text-align: center;
+    padding: 30px;
+}
+.wi{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 15px 0 0 0;
+    font-size: 28px;
+}
+.city1{
+    width: 50%;
+    background-color: #3399cc;   
+}
+.city2{
+    background-color: #33cccc;
+   
+}
+.city3{
+    background-color: #996699;
+}
+.city4{
+    background-color: #c24747;
+}
+.city5  {
+    background-color: #e2674a;
+}
+.city6{
+    background-color: #ffcc66;
+}
+.city7{
+    background-color: #99cc99;
+}
+.city8{
+    background-color: #669999;
+}
+.city9{
+    width: 50%;
+    background-color: #cc6699;
+}
+.city10{
+    background-color: #339966;
+}
+.city11{
+    width: 100%;
+    background-color: #666699;
+}
+.item:hover .city{
+    opacity: 0.5;
+}
+.item:hover .city:hover{
+    opacity: 1;
+}
+.footer{
+    padding: 0 0 15px 365px;
+    color: white;
+    font-size: 30px;

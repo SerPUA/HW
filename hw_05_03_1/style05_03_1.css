@@ -1,0 +1,56 @@
+body{
+    background-color: #fdde7e;
+    width: 1200px;
+    height: auto;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 28px 0 0 20px;
+    flex-grow: 1;
+}
+.cup{
+    border: 2px solid black;
+    width: 200px;
+    box-sizing: border-box;   
+    transition: 1s;
+    opacity: 0.5;
+}
+.cups{
+    width: 331px;
+    height: 404px;
+    padding: 15px;   
+    background-color: white;
+}
+.cup_img{
+    padding-left: 88px;  
+}
+.golden__cup{
+   
+    width: 361px;
+    height: 500px;
+    margin: 0;
+    padding-top: 61px;
+}
+.info{
+    margin: 0;
+}
+.price{
+    font-size: 70px;
+    
+    color: #02995b;
+    font-weight: bold;
+    text-align: center;
+}
+.text2{
+    font-size: 56px;
+     color: #333333;
+    text-align: center;
+}
+.text3{
+    text-align: center;
+}
+.cup:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    background-color: blue;
+}
