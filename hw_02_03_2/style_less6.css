@@ -28,12 +28,7 @@ body{
     text-align: center;
     padding: 30px;
 }
-.wi{
-    display: inline-block;
-    box-sizing: border-box;
-    padding: 15px 0 0 0;
-    font-size: 28px;
-}
+
 .city1{
     width: 50%;
     background-color: #3399cc;   
