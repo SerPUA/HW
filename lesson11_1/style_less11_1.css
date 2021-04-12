@@ -1,0 +1,99 @@
+html, body{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    width: 1500px;
+    height: 1700px;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    background-image: url(/images/strawberry.svg);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+/*--------------- HEADER --------------- */
+.up-title{
+    display: flex;
+    justify-content: space-between;
+     color: #262626;
+}
+.up-title__logo{
+    font-size: 50px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: "Pacifico";
+    text-align: left;
+    margin: 50px 0 25px 165px;
+}.up-title__nav{
+    margin: 50px 164px 0 0;
+}
+.up-title__link{
+    height: 15px;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 700;
+    text-align: right;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.link_active{
+    border-top: 1px solid #ff6033;
+}
+.info-title__title{
+    margin: 300px 1055px 33px 166px;
+}
+.info-title_article{
+    width: 370px;
+    height: 69px;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 300;
+    margin-left: 165px;
+}
+.header-button__style{
+    width: 200px;
+    height: 55px;
+    filter: drop-shadow(0px 2px 2.5px rgba(0,0,0,0.5));
+    background-color: #ff6033;
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 300;
+    margin: 35px 0 0 164px;
+}
+.header-scroll{
+    margin: 296px 50% 14px 50%;
+}
+
+/* ---------------  bottomn-title ---------------  */
+.bottomn-title{
+    width: 1500px;
+    height: 700px;
+    background-color: #00afaf;
+    display: flex;  
+    
+}
+.bottom-title__img{
+    margin: 72px 0 72px 120px;
+}
+.bottom-title__text{
+    color: #ffffff;
+    line-height: 27px;
+}
+.bottom-title__title{
+    text-align: center;
+    font-size: 90px;
+    font-weight: 700;
+    padding: 130px 150px 0 200px;
+    margin-bottom: 50px;
+}
+.bottom-title__info{
+    display: inline-block;
+    width: 500px;
+    height: 202px;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: left;
+    padding-left: 150px;
+}
