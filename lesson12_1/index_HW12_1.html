@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@300;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style_HW12_1.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="main-items">
+<!------ main-items__header ------>
+             <div class="main-items__header">
+                <h1 class="main-items__title">
+                    Contact
+                </h1>
+                <span class="main-items__sub-title">For new projects, ideas, business or anything <br>
+                    you'd like to discuss, contact with me!</span>
+            </div>
+<!------ end main-items__header ------>
+
+ <!------ contact-form ------>
+            <div>
+                <form action="/contact/contact-base" method="GET">
+                    <div class="contact-form__field">
+                        <div class="contact-form__field-name">
+                            <input type="text" name="name" required pattern="^[A-Za-z\s]+$"
+                                placeholder="Enter your name" class="input">
+                        </div>
+                        <div class="contact-form__field-email">
+                            <input type="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                                placeholder="Your email..." class="input">
+                        </div>
+                        <div class="contact-form__field-phone">
+                            <input type="tel" name="phone_num" required pattern="+-[0-9]"
+                                placeholder="Your phone number..." class="input">
+                        </div>
+                        <textarea name="Your message..." id="" cols="30" rows="10"
+                            class="contact-form__field-message input" placeholder="Your message..."></textarea>
+                    </div>
+                    <button type="submit" class="contact-form__button">Send Your message</button>
+                </form>
+            </div>
+ <!------end  contact-form ------>
+ <!------contact-relation ------>
+            <div class="contact-relation">
+                <p class="contact-relation__title contact-relation__text">ADDRESS</p>
+                <span class="contact-relation__title-address">123 City name, Street, City, Country</span><br>
+                <p class="contact-relation__title contact-relation__text">EMAIL</p>
+                <span class="contact-relation__title-email">cahee@domain.com</span><br>
+                <p class="contact-relation__title contact-relation__text">PHONE</p>
+                <span class="contact-relation__title-phone">+012 345 6789</span>
+            </div>
+<!------ end contact-relation ------>
+        </div>
+<!------ footer-site ------>
+            <div class="footer-site">
+                <p class="footer-site__copyright">© 2015 Company. All right reserved.</p>
+                <p class="footer-site__logo footer-site__logo-font">Cahee</p>
+                <p class="footer-site__dev">Made with <span class="love">love</span>  by Auskteez</p>
+            </div>
+<!------ end footer-site ------>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
